@@ -1,0 +1,16 @@
+packages: []
+
+minimumReleaseAge: 12960
+
+minimumReleaseAgeExclude:
+  - '@phonepe/*'
+
+onlyBuiltDependencies:
+  - '@prisma/engines'
+  - '@tensorflow/tfjs-node'
+  - canvas
+  - core-js
+  - prisma
+  - sharp
+
+strictPeerDependencies: false
